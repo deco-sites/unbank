@@ -9,6 +9,10 @@
     font-family: var(--font-family);
   }
 
+  body {
+	@apply bg-black;
+  }
+
   mark {
     @apply bg-accent text-accent-content;
   }

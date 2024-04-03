@@ -49,7 +49,7 @@ const color = (platform: string) => {
     case "nuvemshop":
       return nuvemshop;
     case "deco":
-      return 0x02f77d;
+      return 0x212121;
     default:
       return 0x212121;
   }
@@ -66,9 +66,7 @@ export default function Site(
   if (firstRun) {
     firstRun = false;
     console.info(
-      ` 🐁 ${rgb24("Storefront", color("deco"))} | ${
-        rgb24(_platform, color(_platform))
-      } \n`,
+      ` 🐁 ${rgb24("Unbank", color("deco"))}`,
     );
   }
 

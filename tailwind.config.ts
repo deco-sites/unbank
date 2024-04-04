@@ -7,6 +7,9 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      colors: {
+        "gray-400": "#FAFAFA66",
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

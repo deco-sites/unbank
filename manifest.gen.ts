@@ -9,6 +9,7 @@ import * as $$$$$$1 from "./sections/Content.tsx";
 import * as $$$$$$2 from "./sections/Footer.tsx";
 import * as $$$$$$3 from "./sections/Hero.tsx";
 import * as $$$$$$4 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$5 from "./sections/WhatsNextCard.tsx";
 
 const manifest = {
   "sections": {
@@ -17,6 +18,7 @@ const manifest = {
     "deco-sites/unbank/sections/Footer.tsx": $$$$$$2,
     "deco-sites/unbank/sections/Hero.tsx": $$$$$$3,
     "deco-sites/unbank/sections/Theme/Theme.tsx": $$$$$$4,
+    "deco-sites/unbank/sections/WhatsNextCard.tsx": $$$$$$5,
   },
   "apps": {
     "deco-sites/unbank/apps/decohub.ts": $$$$$$$$$$$0,

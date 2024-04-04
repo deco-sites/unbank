@@ -58,3 +58,20 @@
     --dot-progress: 100%
   }
 }
+
+#circle { position: relative; width: 100%; padding-bottom: 100%; overflow: hidden; }
+
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 16px; font-weight: bold; }
+
+#circle svg { position: absolute; left: 0; top: 0; width: 100%; height: 540px;
+          animation-name: rotate;
+          animation-duration: 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+

@@ -31,7 +31,7 @@ const Countdown = () => {
   }, []);
 
   return (
-    <p className="font-abel font-normal text-[#FAFAFA] text-[56px] leading-none">
+    <div className="w-fit gap-2 flex flex-row items-center justify-between font-abel font-normal text-[#FAFAFA] text-[56px] leading-none tracking-tighter tabular-nums">
       <span>{formatTime(timeLeft.days)}</span>
       <span className="text-gray-400">D</span>
       <span>{formatTime(timeLeft.hours)}</span>
@@ -40,7 +40,7 @@ const Countdown = () => {
       <span className="text-gray-400">M</span>
       <span>{formatTime(timeLeft.seconds)}</span>
       <span className="text-gray-400">S</span>
-    </p>
+    </div>
   );
 };
 

@@ -1,14 +1,7 @@
 export default function Footer() {
   return (
     <footer class="bg-black w-full h-[300px] flex flex-col items-center justify-center">
-      <div>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          style="width: 100%; height: 100%"
-        >
-          <use href="#svg2581686714"></use>
-        </svg>
-      </div>
+      <div class="framer-9loixs"><div class="framer-185j8du" data-border="true"><div class="framer-6ipmy8-container"><div style="width:100%;height:100%;position:relative"><svg class="transform-origin-center-center" style="width: 100%; height: 100%; position: absolute; inset: 0px; transform-origin: center center; will-change: transform; transform: rotate(114.678deg);" viewBox="0 0 100 100" overflow="visible"><path id="curve-wnxkz4" d="M 0 50 L 0 50 A 1 1 0 0 1 100 50 L 100 50 L 100 50 A 1 1 0 0 1 0 50 L 0 50" stroke-width="none" fill="transparent"></path><text><textPath href="#curve-wnxkz4" startOffset="0" dominant-baseline="Hanging" style="font-family:&quot;CircularXX TT Bold&quot;, &quot;CircularXX TT Bold Placeholder&quot;, sans-serif;font-size:15px;letter-spacing:0.16em;line-height:1em;word-spacing:0;fill:var(--token-4ca7d748-6404-4dbd-82d7-1148c1e14e26, rgba(0, 0, 0, 0.6))">✦ UNBANK ✦ UNBANK ✦ UNBANK</textPath></text></svg></div></div><div class="framer-1vc0u1o" data-border="true"><div data-framer-component-type="SVG" data-framer-name="magie_m" name="magie_m" style="image-rendering:pixelated;flex-shrink:0" class="framer-d15s2r"><div class="svgContainer" style="width:100%;height:100%;aspect-ratio:inherit"><svg xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%"><use href="#svg2581686714"></use></svg></div></div></div></div></div>
     </footer>
   );
 }

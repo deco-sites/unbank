@@ -6,15 +6,17 @@ import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Animation/Animation.tsx";
 import * as $$$$$$1 from "./sections/Content.tsx";
-import * as $$$$$$2 from "./sections/Hero.tsx";
-import * as $$$$$$3 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/Hero.tsx";
+import * as $$$$$$4 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "deco-sites/unbank/sections/Animation/Animation.tsx": $$$$$$0,
     "deco-sites/unbank/sections/Content.tsx": $$$$$$1,
-    "deco-sites/unbank/sections/Hero.tsx": $$$$$$2,
-    "deco-sites/unbank/sections/Theme/Theme.tsx": $$$$$$3,
+    "deco-sites/unbank/sections/Footer.tsx": $$$$$$2,
+    "deco-sites/unbank/sections/Hero.tsx": $$$$$$3,
+    "deco-sites/unbank/sections/Theme/Theme.tsx": $$$$$$4,
   },
   "apps": {
     "deco-sites/unbank/apps/decohub.ts": $$$$$$$$$$$0,

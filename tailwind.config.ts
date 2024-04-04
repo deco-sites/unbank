@@ -6,6 +6,11 @@ export default {
   content: ["./**/*.tsx"],
   theme: {
     container: { center: true },
+	fontFamily: {
+		'abel': ["Abel", "sans-serif"],
+		'inter': ["Inter", "sans-serif"],
+		'inter-tight': ["Inter Tight", "sans-serif"],
+	},
     extend: {
       colors: {
         "gray-400": "#FAFAFA66",

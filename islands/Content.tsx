@@ -4,7 +4,7 @@ import { useEffect } from "preact/hooks";
 /**
  * @title {{{title}}}
  */
-interface TextBlock {
+export interface TextBlock {
   title: string;
   /** @format html */
   text: string;
@@ -24,7 +24,7 @@ export default function Content({ textBlock }: Props) {
 		  animate(
 			titleId,
 			{ opacity: 1, transform: "none" },
-			{ delay: 0.2, duration: 0.5, easing: [0.17, 0.55, 0.55, 1] },
+			{ delay: 0.2, duration: 0.6, easing: [0.17, 0.55, 0.55, 1] },
 		  );
 		});
 
@@ -32,31 +32,29 @@ export default function Content({ textBlock }: Props) {
 		  animate(
 			textId,
 			{ opacity: 1, transform: "none" },
-			{ delay: 0.5, duration: 0.5, easing: [0.17, 0.55, 0.55, 1] },
+			{ delay: 0.5, duration: 0.9, easing: [0.17, 0.55, 0.55, 1] },
 		  );
 		});
 	  });
 	}, [textBlock]);
 
 	return (
-	  <section className="h-auto w-full px-5 md:px-10">
-		<div className="flex flex-col gap-6 flex-nowrap">
+		<div className="w-full flex flex-col flex-nowrap gap-6 pt-6 md:pt-0 pb-20 px-5 md:px-10 md:pb-20 max-w-[1400px]">
 			{textBlock.map((block, index) => (
-			  <div key={index}>
+			  <div key={index} class="flex flex-col gap-6 flex-nowrap">
 				<h2
 				  id={`textTitle${index}`}
-				  className="opacity-0 translate-y-4 font-inter text-[22px] text-white font-bold"
+				  className="opacity-0 translate-y-4 font-inter text-[22px] text-white font-medium leading-6"
 				>
 				  {block.title}
 				</h2>
 				<div
 				  id={`text${index}`}
-				  className="opacity-0 translate-y-4 max-w-[660px] min-w-[300px] text-lg font-inter font-normal"
+				  className="opacity-0 translate-y-4 max-w-[660px] min-w-[300px] text-lg font-inter leading-8 font-normal text-[#FFFFFF99]"
 				  dangerouslySetInnerHTML={{ __html: block.text }}
 				/>
 			  </div>
 			))}
 		</div>
-	  </section>
 	);
   }

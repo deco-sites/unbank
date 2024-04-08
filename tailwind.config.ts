@@ -17,7 +17,7 @@ export default {
       },
       animation: {
         sliding: "sliding 30s linear infinite",
-        "spin-slow": "spin 10s linear infinite",
+        "spin-slow": "spin 14s linear infinite",
       },
       keyframes: {
         sliding: {

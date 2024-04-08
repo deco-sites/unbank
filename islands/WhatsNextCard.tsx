@@ -60,22 +60,6 @@ export default function WhatsNextCard() {
             Quero saber mais
           </span>
         </a>
-
-        {
-          /* <div>
-            <a class="button bg-black">
-              <div data-framer-name="Border"></div>
-              <div data-framer-name="Color 1"></div>
-              <div data-framer-name="Color 1 Glow"></div>
-              <div data-framer-name="Color 2"></div>
-              <div data-framer-name="Color 2 Glow"></div>
-              <div data-framer-name="Fill"></div>
-              <div>
-                <p>Quero saber mais</p>
-              </div>
-            </a>
-          </div> */
-        }
       </div>
     </section>
   );
